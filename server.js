@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
   res.render('index.html');
 });
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5400;
 server.listen(PORT, () => {
-  console.log(`Server is listening on port ${PORT}`);
+  console.log(`Server is listening on http://localhost:${PORT}`);
 });
